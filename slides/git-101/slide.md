@@ -92,14 +92,14 @@ Think different !
 
 ### 環境設定 - 個人資料 / 偏好設定
 ```
-git config ---global user.email "you@example.com"
+git config --global user.email "you@example.com"
 
-git config ---global user.name "Your Name"
+git config --global user.name "Your Name"
 
-git config ---global color.ui true
+git config --global color.ui true
 
 #換為你慣用的文字編輯器
-git config ---global core.editor vim
+git config --global core.editor vim
 ```
 
 ----
@@ -107,15 +107,15 @@ git config ---global core.editor vim
 ### 環境設定 - 設定別名
 
 ```
-git config ---global alias.co checkout
+git config --global alias.co checkout
 
-git config ---global alias.br branch
+git config --global alias.br branch
 
-git config ---global alias.ci commit
+git config --global alias.ci commit
 
-git config ---global alias.st status
+git config --global alias.st status
 
-git config ---global alias.lg "log ---color ---graph ---all ---pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' ---abbrev-commit ---"
+git config --global alias.lg "log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 ```
 
 ----
@@ -123,7 +123,7 @@ git config ---global alias.lg "log ---color ---graph ---all ---pretty=format:'%C
 # config
 .gitconfig
 
-Why `---global`?
+Why `--global`?
 
 ```
 cat ~/.gitconfig
@@ -274,7 +274,7 @@ git status
 git diff
 
 #已監控的檔案
-git diff ---cached
+git diff --cached
 ```
 
 ----
@@ -365,7 +365,7 @@ Remove file
   ```
 Untrack file
   ```
-  git rm ---cached <file>
+  git rm --cached <file>
   ```
 Rename file
   ```
@@ -415,7 +415,7 @@ git stash show -p <revision>
 ```
 git reset <revision>
 
-git reset ---hard <revision>
+git reset --hard <revision>
 ```
 [ref rebase -i, reset, revert](https://blog.yorkxin.org/2011/07/29/git-rebase)
 
@@ -618,7 +618,7 @@ merge branches
 
 * `git merge <branch>`
 
-* `git merge ---no-ff <branch>`
+* `git merge --no-ff <branch>`
 
 ---
 
@@ -664,15 +664,15 @@ Trace log
 
 ### More about git log
 
-* `git log -p ---stat`
+* `git log -p --stat`
 
-* `git log ---oneline`
+* `git log --oneline`
 
-* `git log ---graph`
+* `git log --graph`
 
-* `git log ---abbrev-commit`
+* `git log --abbrev-commit`
 
-* `git log ---pretty=%an`
+* `git log --pretty=%an`
 
 * `git whatchanged`
 
@@ -680,9 +680,9 @@ Trace log
 
 ### Limit
 
-* `git log ---author="Denny Huang"`
+* `git log --author="Denny Huang"`
 
-* `git log ---since={2014-07-01} ---until="1 week ago"`
+* `git log --since={2014-07-01} --until="1 week ago"`
 
 ### search by regex
 
@@ -747,9 +747,9 @@ Trace log
 
 ### Patch commit
 
-* `git add ---patch`
+* `git add --patch`
 
-* `git commit ---patch`
+* `git commit --patch`
 
 ---
 
@@ -760,9 +760,9 @@ Modify you commit
 
 ### Modify commit history
 
-* `git commit ---amend`
+* `git commit --amend`
 
-* `git commit ---amend ---date="Mar 15 00:00 2014"`
+* `git commit --amend --date="Mar 15 00:00 2014"`
 
 * `git rebase -i <revision>`
 
