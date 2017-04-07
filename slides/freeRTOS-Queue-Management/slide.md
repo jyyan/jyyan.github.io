@@ -41,6 +41,12 @@ forked from [Git , Denny Huang ](http://denny.one/git-slide)
 * Receiving from multiple Queue
 * Using a Queue to create a mailbox
 
+----
+
+* Most of example code & images from ...
+  * 161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide
+  * FreeRTOS_Reference_Manual_V9.0.0
+
 ---
 
 # Why ?
