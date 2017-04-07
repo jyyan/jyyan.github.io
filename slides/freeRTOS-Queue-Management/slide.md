@@ -15,12 +15,6 @@ freeRTOS Queue Management
 
 JunYuan Yan
 
-<div align="right">
-  <font size="3">
-forked from [Git , Denny Huang ](http://denny.one/git-slide)
-  </font>
-</div>
-
 ----
 
 # About me
