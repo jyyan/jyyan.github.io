@@ -9,15 +9,15 @@ int main() {
 
     pid = fork();
     if (pid == 0) {
-      printf("%d - %d\t", getpid(), i);
+      printf("%d : %d\t", getpid(), i);
       printf("This is the child process. My pid is %d and my parent's id is %d.\n", getpid(), getppid());
-      printf("%d - %d :\t-\n", getpid(), i);
+      printf("%d : %d :\t-\n", getpid(), i);
     }
     else {
-      printf("%d - %d\t", getpid(), i);
+      printf("%d : %d\t", getpid(), i);
       printf("create child pid = %d\n", pid);
-      printf("%d - %d\tThis is the parent process. My pid is %d and my child's id is %d.\n",  getpid(), i, getpid(), pid);
-      printf("%d - %d :\t-\n", getpid(), i);
+      printf("%d : %d\tThis is the parent process. My pid is %d and my child's id is %d.\n",  getpid(), i, getpid(), pid);
+      printf("%d : %d :\t-\n", getpid(), i);
     }
     /*printf("-\n");*/
   }
