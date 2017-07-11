@@ -1,0 +1,60 @@
+(0) 5310	create child pid = 5311
+(0) 5310	This is the parent process. My pid is 5310 and my child's id is 5311.
+(0) 5310 :	-
+(1) 5310	create child pid = 5312
+(1) 5310	This is the parent process. My pid is 5310 and my child's id is 5312.
+(1) 5310 :	-
+(2) 5313	This is the child process. My pid is 5313 and my parent's id is 5310.
+(2) 5313 :	-
+(0) 5311	This is the child process. My pid is 5311 and my parent's id is 5310.
+(0) 5311 :	-
+(1) 5314	This is the child process. My pid is 5314 and my parent's id is 5311.
+(1) 5314 :	-
+(2) 5317	This is the child process. My pid is 5317 and my parent's id is 5314.
+(2) 5317 :	-
+(0) 5310	create child pid = 5311
+(0) 5310	This is the parent process. My pid is 5310 and my child's id is 5311.
+(0) 5310 :	-
+(1) 5312	This is the child process. My pid is 5312 and my parent's id is 5310.
+(1) 5312 :	-
+(2) 5315	This is the child process. My pid is 5315 and my parent's id is 5312.
+(2) 5315 :	-
+(0) 5311	This is the child process. My pid is 5311 and my parent's id is 5310.
+(0) 5311 :	-
+(1) 5311	create child pid = 5314
+(1) 5311	This is the parent process. My pid is 5311 and my child's id is 5314.
+(1) 5311 :	-
+(2) 5316	This is the child process. My pid is 5316 and my parent's id is 5311.
+(2) 5316 :	-
+(0) 5311	This is the child process. My pid is 5311 and my parent's id is 5310.
+(0) 5311 :	-
+(1) 5314	This is the child process. My pid is 5314 and my parent's id is 5311.
+(1) 5314 :	-
+(2) 5314	create child pid = 5317
+(2) 5314	This is the parent process. My pid is 5314 and my child's id is 5317.
+(2) 5314 :	-
+(0) 5310	create child pid = 5311
+(0) 5310	This is the parent process. My pid is 5310 and my child's id is 5311.
+(0) 5310 :	-
+(1) 5312	This is the child process. My pid is 5312 and my parent's id is 5310.
+(1) 5312 :	-
+(2) 5312	create child pid = 5315
+(2) 5312	This is the parent process. My pid is 5312 and my child's id is 5315.
+(2) 5312 :	-
+(0) 5311	This is the child process. My pid is 5311 and my parent's id is 5310.
+(0) 5311 :	-
+(1) 5311	create child pid = 5314
+(1) 5311	This is the parent process. My pid is 5311 and my child's id is 5314.
+(1) 5311 :	-
+(2) 5311	create child pid = 5316
+(2) 5311	This is the parent process. My pid is 5311 and my child's id is 5316.
+(2) 5311 :	-
+(0) 5310	create child pid = 5311
+(0) 5310	This is the parent process. My pid is 5310 and my child's id is 5311.
+(0) 5310 :	-
+(1) 5310	create child pid = 5312
+(1) 5310	This is the parent process. My pid is 5310 and my child's id is 5312.
+(1) 5310 :	-
+(2) 5310	create child pid = 5313
+(2) 5310	This is the parent process. My pid is 5310 and my child's id is 5313.
+(2) 5310 :	-
