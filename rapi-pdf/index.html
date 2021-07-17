@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes"><title>RapiPdf</title><style>rapi-pdf {
+      margin:2px;
+      width:600px;
+    }</style></head><body>
+      
+      <h1>注意事項：</h1>
+      <ul>
+        <li>採用 SourceHanSansTC-VF 字型</li>
+        <li>swagger.json 來源檔案必須開啟 CORS</li>
+        <li>下載 API 文件名稱固定為 <b>api-document.pdf</b> </li>
+        <li> <a target="_blank" href="https://github.com/jyyan/RapiPdf/tree/luke-support-zh-tw">本專案 repo</a></li>
+      </ul>
+      
+      <rapi-pdf id="rapipdf" spec-url="./specs/petstore.json" pdf-schema-style="table"></rapi-pdf><rapi-pdf id="rapipdf" spec-url="./specs/petstore.json" pdf-schema-style="object"></rapi-pdf><rapi-pdf id="rapipdf" spec-url="./specs/bitbucket.json"></rapi-pdf><rapi-pdf id="rapipdf" spec-url="./specs/data-types.yaml"></rapi-pdf><rapi-pdf id="rapipdf" spec-url="./specs/data-types.yaml" include-example="true" , button-label="WITH EXAMPLE"></rapi-pdf><rapi-pdf id="rapipdf" spec-url="./specs/data-types.yaml" hide-input="true"></rapi-pdf><button onclick="changeSpec()">Change Spec</button><script>function changeSpec(){
+      let el = document.getElementById("rapipdf");
+      el.setAttribute('spec-url', 'set new attrib');
+    }</script><script src="rapipdf-min.js"></script></body></html>
