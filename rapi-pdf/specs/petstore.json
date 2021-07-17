@@ -1,9 +1,9 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "This is a sample local Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.",
+    "description": "測試 Swagger 檔案包含中文字，This is a sample local Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.",
     "version": "1.0.0",
-    "title": "Swagger Petstore",
+    "title": "Swagger 寵物商店",
     "termsOfService": "http://swagger.io/terms/",
     "contact": {
       "email": "apiteam@swagger.io"
